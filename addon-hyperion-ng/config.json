@@ -29,11 +29,8 @@
   "image": "bradsjm/hyperion-ng-addon-{arch}",
   "options": {},
   "schema": {},
-  "uart": true,
-  "usb": true,
   "video": true,
-  "gpio": true,
+  "hassio_role":"admin",
   "privileged": "SYS_RAWIO",
-  "devices": ["/dev/spidev0.0","/dev/vchiq","/dev/amvideo","/dev/fb0","/dev/mem"],
   "webui": "http://[HOST]:[PORT:8090]"
 }
