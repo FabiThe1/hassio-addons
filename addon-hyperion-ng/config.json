@@ -33,6 +33,7 @@
   "usb": true,
   "video": true,
   "gpio": true,
+  "privileged": "SYS_RAWIO",
   "devices": ["/dev/spidev0.0","/dev/vchiq","/dev/amvideo","/dev/fb0","/dev/mem"],
   "webui": "http://[HOST]:[PORT:8090]"
 }
