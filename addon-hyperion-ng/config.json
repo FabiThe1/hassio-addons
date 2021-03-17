@@ -8,7 +8,6 @@
   "startup": "application",
   "apparmor": false,
   "boot": "auto",
-  "full_access": true,
   "ports": {
     "8090/tcp": 8090,
     "8092/tcp": null,
@@ -29,8 +28,11 @@
   "image": "bradsjm/hyperion-ng-addon-{arch}",
   "options": {},
   "schema": {},
+  "uart": true,
+  "usb": true,
   "video": true,
-  "hassio_role":"admin",
-  "privileged": ["SYS_RAWIO"],
+  "gpio": true,
+  "full_access": true,
+  "devices": ["/dev/spidev0.0","/dev/vchiq","/dev/amvideo","/dev/fb0","/dev/mem"],
   "webui": "http://[HOST]:[PORT:8090]"
 }
