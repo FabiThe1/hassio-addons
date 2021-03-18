@@ -33,7 +33,7 @@
   "video": true,
   "gpio": true,
   "full_access": true,
-  "privileged": ["SYS_RAWIO"]
+  "privileged": ["SYS_RAWIO"],
   "devices": ["/dev/spidev0.0","/dev/vchiq","/dev/amvideo","/dev/fb0"],
   "webui": "http://[HOST]:[PORT:8090]"
 }
