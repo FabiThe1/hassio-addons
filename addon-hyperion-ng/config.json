@@ -31,6 +31,6 @@
   "video": true,
   "full_access": true,
   "hassio_role":"admin",
-  "privileged": "SYS_RAWIO",
+  "privileged": ["SYS_ADMIN","SYS_RAWIO"],
   "webui": "http://[HOST]:[PORT:8090]"
 }
